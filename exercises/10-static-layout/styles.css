@@ -1,4 +1,28 @@
 /* your code here */
+/*.wrapper {
+	display: flex;
+}
+.wrapper :nth-child(1) {
+	position: static;
+}*/
+.wrapper :nth-child(2) {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.wrapper :nth-child(3) {
+	display: inline-block;
+	float: left;
+	width: max-content;
+	margin-left: 20px;
+	margin-right: 5px;
+}
+.wrapper :nth-child(4) {
+	display: inline-block;
+	float: right;
+	width: 90%;
+	margin-right: 20px;
+	margin-left: 5px;
+}
 
 /**************************************
 DON'T CHANGE ANYTHING AFTER THIS LINE
